@@ -11,6 +11,7 @@ public class Prey {
 
     private Smelling smell ;
     private Vision vision ;
+    private Coords coords ;
 
     public void moveToFeed(Plant plant){
 
