@@ -1,30 +1,30 @@
 package com.company;
 
 public class Prey {
-    int ageNow ;
-    int ageMax ;
-    static final int ageMaxAll = 30 ;
+    private int ageNow ;
+    private int ageMax ;
+    private static final int ageMaxAll = 30 ;
 
-    int nbLifePointsNow;
-    int nblifePointsNow;
-    static final int nblifePointsAll = 70 ;
+    private int nbLifePointsNow;
+    private int nblifePointsNow;
+    private static final int nblifePointsAll = 70 ;
 
-    Smelling smell ;
-    Vision vision ;
+    private Smelling smell ;
+    private Vision vision ;
 
-    public void hunt(){
+    public void moveToFeed(Plant plant){
 
     }
     public void move(){
 
     }
-    public void mate(){
+    public void mate(Prey prey){
 
     }
-    public void eat(){
+    public void eat(Plant plant){
 
     }
-    public void drink(){
+    public void drink(WaterSpot waterSpot){
 
     }
 }
